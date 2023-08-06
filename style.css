@@ -181,6 +181,10 @@ span {
     margin: 10px 0;
 }
 
+.about-text .com-btn {
+    margin-top: 10px;
+}
+
 /* Our Menu Section */
 
 
@@ -198,18 +202,17 @@ span {
 .heading {
     font-size: 35px;
     text-align: center;
-    margin: 20px 0;
+    margin: 100px 0 20px 0;
 }
 
 .menu-cards {
     max-width: 300px;
-    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline: 2px solid rgba(255, 255, 255, 0.3);
     padding: 30px;
     margin: 20px;
     border-radius: 5px;
     text-align: center;
     transition: .4s;
-    background: #13131a;
 }
 
 .menu-cards:hover {
@@ -265,7 +268,7 @@ span {
     width: 350px;
     padding: 30px;
     margin: 20px;
-    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline: 2px solid rgba(255, 255, 255, 0.3);
     position: relative;
     text-align: center;
     border-radius: 5px;
@@ -328,7 +331,7 @@ span {
 
 .review-cards {
     width: 400px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     text-align: center;
     margin: 20px;
     padding: 10px;
@@ -360,7 +363,7 @@ span {
 .contact-form {
     max-width: 100%;
     margin: 20px 5%;
-    outline: 2px solid rgba(255, 255, 255, .5);
+    outline: 2px solid rgba(255, 255, 255, .3);
     padding: 20px 0;
     display: flex;
     flex-flow: row wrap;
@@ -388,7 +391,7 @@ span {
 
 iframe {
     border-radius: 5px;
-    outline: 2px solid rgba(255, 255, 255, 0.5);
+    outline: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .form input {
@@ -415,7 +418,7 @@ textarea {
 
 .blog-card {
     max-width: 400px;
-    outline: 2px solid rgba(255, 255, 255, .5);
+    outline: 2px solid rgba(255, 255, 255, .3);
     margin: 20px;
     border-radius: 5px;
     background: #13131a;
@@ -601,7 +604,7 @@ footer .footer-logo {
         right: 0;
         background: #fff;
         height: 100vh;
-        width: 50%;
+        width: 60%;
         padding: 20px;
         border-radius: 5px;
     }
@@ -623,6 +626,10 @@ footer .footer-logo {
         max-width: 100%;
         margin: 20px;
         padding: 10px;
+    }
+
+    .heading {
+        margin: 30px 0 20px 0;
     }
 
     .header-text h1 {
