@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalyani's Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Assets/Shop Logo.png" type="image/x-icon">
+    <script>
+        function Show() {
+            var x = document.querySelector(".mobile-menu");
+            if (x.style.display === "none") {
+                x.style.display = "flex";
+            }
+            else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="full-page-container">
+
+        <!-- Navbvar Section -->
+
+        <div class="main-nav">
+            <a href="#">
+                <img src="Assets/Shop Logo.png" alt="Kalyani's Cafe Logo" class="shop-logo">
+            </a>
+            <nav class="links">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#product">Products</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+                <a href="#blog">Blog</a>
+            </nav>
+            <div class="icons">
+                <i class='bx bxs-shopping-bag'></i>
+                <i class='bx bx-search-alt'></i>
+                <i class="bx bx-user-circle"></i>
+                <i class='bx bx-menu-alt-right' onclick="Show()"></i>
+            </div>
+        </div>
+
+        <!-- Mobile-Menu -->
+        <nav class="mobile-menu">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#product">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blog">Blog</a>
+        </nav>
+
+        <!-- Header Section -->
+
+        <header>
+            <div class="header-text">
+                <h1>Welcome To <span>The Kalyani's Coffee</span></h1>
+                <p> Where coffee dreams come true. Sip, savor, and repeat as you indulge in
+                    our exceptional coffee creations.Embrace the coffee culture and experience true coffee nirvana with
+                    each perfect cup.</p>
+                <a href="#menu" class="header-btn com-btn">Explore Us</a>
+            </div>
+        </header>
+
+        <!-- About Us Section -->
+
+        <main>
+            <div class="about-sec" id="about">
+                <img src="Assets/about-us-img.jpeg" alt="about-us-img" class="about-img">
+                <div class="about-text">
+                    <h1>Our <span>Coffee Story</span></h1>
+                    <p>At Kalyani's Coffee, our coffee journey is a tale of passion and dedication. It all began with a
+                        shared love for the aromatic beans and the desire to craft the perfect cup of coffee. Our
+                        founders, inspired by their travels to coffee-growing regions around the world, set out on a
+                        mission to bring the finest coffee experience to our community.
+                        <br><br>
+                        From sourcing the highest quality beans to the art of roasting and brewing, every step of our
+                        coffee-making process is infused with care and precision. We take pride in supporting
+                        sustainable and ethical practices, building strong relationships with coffee farmers, and
+                        contributing to the growth of coffee-growing communities.
+                    </p>
+                    <a href="#blog" class="com-btn">Know More</a>
+                </div>
+            </div>
+
+
+            <!-- Our Menu Section -->
+
+            <div class="our-menu" id="menu">
+                <h1 class="heading">Our <span>Menu</span></h1>
+                <div class="all-cards">
+                    <div class="menu-cards">
+                        <img src="Assets/Cappuccino.jpeg" alt="Coffee-img">
+                        <h2>Cappuccino</h2>
+                        <p>Rs 250 /- <span>300</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Espresso.jpeg" alt="Coffee-img">
+                        <h2>Espresso</h2>
+                        <p>Rs 450 /- <span>500</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Latte.jpeg" alt="Coffee-img">
+                        <h2>Latte</h2>
+                        <p>Rs 400 /- <span>450</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Americano.jpeg" alt="Coffee-img">
+                        <h2>Americano</h2>
+                        <p>Rs 300 /- <span>350</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Flat white.jpeg" alt="Coffee-img">
+                        <h2>Flat white</h2>
+                        <p>Rs 400 /- <span>450</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Caffè mocha.jpeg" alt="Coffee-img">
+                        <h2>Caffè mocha</h2>
+                        <p>Rs 350 /- <span>400</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Caffè macchiato.jpeg" alt="Coffee-img">
+                        <h2>Caffè macchiato</h2>
+                        <p>Rs 450 /- <span>500</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                    <div class="menu-cards">
+                        <img src="Assets/Iced coffee.jpeg" alt="Coffee-img">
+                        <h2>Iced coffee</h2>
+                        <p>Rs 200 /- <span>300</span></p>
+                        <a href="" class="com-btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Our Products Section -->
+
+            <div class="our-product" id="product">
+                <h1 class="heading">Our <span>Products</span></h1>
+                <div class="all-cards">
+                    <div class="card-main">
+                        <i class='bx bxs-heart'></i>
+                        <i class='bx bxs-cart-alt'></i>
+                        <img src="Assets/product-1.png" alt="product-1" class="product-img">
+                        <div class="product-info">
+                            <h2>Nicaragua Coffee Beans</h2>
+                            <p>Rs 500 /- <span>600</span></p>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                            <br>
+                            <a href="#" class="com-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <i class='bx bxs-heart'></i>
+                        <i class='bx bxs-cart-alt'></i>
+                        <img src="Assets/product-2.png" alt="product-1" class="product-img">
+                        <div class="product-info">
+                            <h2>Columbia Whole Beans</h2>
+                            <p>Rs 500 /- <span>600</span></p>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star-half"></i>
+                            <br>
+                            <a href="#" class="com-btn">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card-main">
+                        <i class='bx bxs-heart'></i>
+                        <i class='bx bxs-cart-alt'></i>
+                        <img src="Assets/product-3.png" alt="product-1" class="product-img">
+                        <div class="product-info">
+                            <h2>Peru Whole Beans</h2>
+                            <p>Rs 500 /- <span>600</span></p>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <i class="bx bxs-star"></i>
+                            <br>
+                            <a href="#" class="com-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Customer's Review -->
+
+            <div class="customer-review" id="review">
+                <h1 class="heading">Customer's <span>Review</span></h1>
+                <div class="all-cards">
+                    <div class="review-cards">
+                        <i class='bx bxs-quote-right' style='color:#d3ad7f'></i>
+                        <div class="card-text-img">
+                            <p>Decent Coffee, Good Ambience. The coffee here was good, but it didn't quite live up to my
+                                expectations. The ambiance is cozy, though, and the staff is friendly. It's worth a
+                                visit if
+                                you're in the area</p>
+                            <img src="https://eliteadmin.themedesigner.in/demos/bt4/university/dist/images/users/9.jpg"
+                                alt="person" class="customer-img">
+                        </div>
+                        <h3>Lil Wayne</h3>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                    <div class="review-cards">
+                        <i class='bx bxs-quote-right' style='color:#d3ad7f'></i>
+                        <div class="card-text-img">
+                            <p>Average Experience. The cappuccino was alright, nothing exceptional. The service was a
+                                bit
+                                slow, and the seating was a little cramped. It's an okay spot for a quick coffee</p>
+                            <img src="https://www.blockfest.fi/wp-content/uploads/2022/12/Blockfest-2023-Lil-Tjay.jpg"
+                                alt="person" class="customer-img">
+                        </div>
+                        <h3>Lil Tjay</h3>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <div class="review-cards">
+                        <i class='bx bxs-quote-right' style='color:#d3ad7f'></i>
+                        <div class="card-text-img">
+                            <p>Hit or Miss. I've been here a couple of times, and the quality seems inconsistent.
+                                Sometimes
+                                the coffee tastes great, but other times it's just okay. The prices are reasonable</p>
+                            <img src="https://images.genius.com/98367f3cd4548347b114452eb3a5927f.1000x1000x1.jpg"
+                                alt="person" class="customer-img">
+                        </div>
+                        <h3>Lil Wayne</h3>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Us -->
+            <div class="contact-us" id="contact">
+                <h1 class="heading">Contact <span>Us</span></h1>
+                <div class="contact-form">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d964983.5107982322!2d73.60069202614955!3d19.131031792623318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc890c874507a9%3A0x4a38ced9c341710c!2sKalyani&#39;s%20Cafe!5e0!3m2!1sen!2sin!4v1690632224532!5m2!1sen!2sin"
+                            width="600" height="450" allowfullscreen="true" loading="fast"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="form">
+                        <h2>Get In <span>Touch</span></h2>
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email Address">
+                        <input type="number" placeholder="Mobile Number" inputmode="numeric">
+                        <textarea cols="30" rows="5" placeholder="Enter Your Feedback"></textarea>
+                        <a href="#" class="com-btn">Conatct Now</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Our Blog -->
+
+            <div class="our-blog" id="blog">
+                <h1 class="heading">Our <span>Blogs</span></h1>
+                <div class="all-cards">
+                    <div class="blog-card">
+                        <img src="https://coffeecantata.co/wp-content/uploads/2022/12/IMG-2108-710x335.jpg"
+                            alt="coffee-img" class="blog-img">
+                        <div class="blog-text">
+                            <h3>Tweed Coffee Two-Step Decaf</h3>
+                            <p>Kalyani's Cafe <i>27 July 23</i></p>
+                            <details>
+                                <summary>Read Blog</summary>
+                                <p>Most of the time when I’m doing coffee tastings, I have to evaluate the coffee first
+                                    thing in the morning because caffeine lingers so long in my system, I can’t sleep
+                                    properly if I consume caffeine later in the day. It can be a little hard to properly
+                                    enjoy the coffee if I’m bleary-eyed</p>
+                            </details>
+                            <a href="" class="com-btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://coffeecantata.co/wp-content/uploads/2022/12/IMG-2250-710x335.jpg"
+                            alt="coffee-img" class="blog-img">
+                        <div class="blog-text">
+                            <h3>Klatch Coffee Hawaii Rusty’s Ka’u</h3>
+                            <p>Kalyani's Cafe <i>26 July 23</i></p>
+                            <details>
+                                <summary>Read Blog</summary>
+                                <p>The Ka’u district of Hawaii is the largest and southernmost district of the Big
+                                    Island, with the North and South Kona districts bordering it to the west. Coffee
+                                    from Hawaii (Kona coffee in particular) is world-famous for its smooth, sweet flavor
+                                    profile, but it’s rare to see 100% Kona coffee being sold, as it fetches.</p>
+                            </details>
+                            <a href="" class="com-btn">Read More</a>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img src="https://coffeecantata.co/wp-content/uploads/2023/01/IMG-2329-710x335.jpg"
+                            alt="coffee-img" class="blog-img">
+                        <div class="blog-text">
+                            <h3>Devoción Coffee Honey House Blend</h3>
+                            <p>Kalyani's Cafe <i>25 July 23</i></p>
+                            <details>
+                                <summary>Read Blog</summary>
+                                <p>Early on in my specialty coffee journey, I learned about the “rule of 15s”: for best
+                                    flavor, use ground coffee within 15 minutes, roasted whole bean coffee within 15
+                                    days, and green coffee within 15 months. If this rule of thumb holds true across the
+                                    industry, that means many coffee roasters could be working.</p>
+                            </details>
+                            <a href="" class="com-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <hr class="foot-divider">
+            <footer>
+                <img src="Assets/Shop Logo.png" alt="shop-logo" class="footer-logo">
+                <div class="main-foot">
+                    <div class="newsletter">
+                        <p>Subscribe To Our Newsletter</p>
+                        <div class="email-flex">
+                            <input type="email" placeholder="Enter Your Email">
+                            <a href="#"><i class="fa-solid fa-location-arrow" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-info">
+                        <div class="address">
+                            <h2>Address</h2>
+                            <p>Shop No 7, Near D-Mart, Thane(W), 4000601</p>
+                        </div>
+                        <div class="contact">
+                            <h2>Contact</h2>
+                            <p>+91 8482936766</p>
+                            <p>kalyaniscafe@gmail.com</p>
+                        </div>
+                        <div class="shop">
+                            <h2>Timing</h2>
+                            <p>Monday - Saturday</p>
+                            <p>10.00 Am To 8.00 Pm</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <div class="foot-icons">
+                        <a href="#">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                    </div>
+                    <div class="copy">
+                        <p>Copyright © Kalyani's Cafe 2023</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
